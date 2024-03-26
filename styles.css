@@ -1,0 +1,89 @@
+@font-face{
+	font-family: PermanentMarker;
+	src: url(PermanentMarker.ttf);
+}
+
+@font-face{
+	font-family: OldNewspaperTypes;
+	src: url(OldNewspaperTypes.ttf);
+}
+
+header{
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+nav a{
+	font-family: PermanentMarker;
+	padding: 20px;
+	background: white;
+	border-radius: 10%;
+	color: #2d1319;
+	text-decoration: none;
+}
+
+nav a:hover{
+	text-decoration: underline;
+}
+
+body{
+	font-family: OldNewspaperTypes;
+	background-image: url(background.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin-top: 10%;
+	overflow: hidden;
+	max-width: 1920px;
+	max-height: 1080px;
+	min-width: 100vh;
+	min-height: 100vh;
+	position: absolute;
+}
+
+section{
+	display: inline;
+}
+
+#homelink{
+	margin-left: 15%;
+}
+
+#pagelinks{
+	float: right;
+	margin-right: 30%;
+}
+
+.pagelinks{
+	display: block;
+}
+
+.pagelinks img:hover{
+	width: 110%;
+}
+
+#aboutme{
+	color: white;
+	margin-left: 18%;
+	display: block;
+}
+
+#aboutme h2{
+	font-family: PermanentMarker;
+}
+
+#aboutme p{
+	width: 20%;
+}
+
+#contact{
+	float: right;
+	margin-right: 30%;
+	rotate: -15deg;
+	font-family: PermanentMarker;
+}
+
+#contact a{
+	color: #2d1319;
+	font-size: 2em;
+}
